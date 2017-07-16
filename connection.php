@@ -27,7 +27,7 @@ while ($row = $stmt->fetch())
     echo $row['name'] . "\n";
 }
 
-//select with foreach
+//select with  foreach
 $stmt = $pdo->query('SELECT name FROM users');
 foreach ($stmt as $row)
 {
