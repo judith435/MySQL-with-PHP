@@ -1,3 +1,4 @@
+
 <?php
 $host = '127.0.0.1';
 $db   = 'test';
@@ -33,4 +34,14 @@ foreach ($stmt as $row)
 {
     echo $row['name'] . "\n";
 }
+
+// Insert 
+// $statement = $pdo->prepare("INSERT INTO testtable(name, lastname, age)
+//     VALUES(:fname, :sname, :age)");
+// $statement->execute(array(
+//     "fname" => "Bob",
+//     "sname" => "Desaunois",
+//     "age" => "18"
+// ));
+
 ?>
