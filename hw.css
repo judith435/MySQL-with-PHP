@@ -1,0 +1,14 @@
+*{
+	margin:0px;
+	padding:0px;
+    }
+
+.form-group {  
+            padding-top :10px;
+            padding-left :10px;
+        }    
+        
+.form-control { 
+                 display: inline-block; 
+                 max-width: 25%;       
+        }                 

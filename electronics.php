@@ -32,7 +32,7 @@ class Screen extends ElectronicPart implements IElectronicPart {
     public function insert() {
 
         $host = '127.0.0.1';
-        $db   = 'electronics_l40';
+        $db   = 'test';
         $user = 'root';
         $pass = '';
         $charset = 'utf8';
@@ -83,7 +83,7 @@ class Mouse extends ElectronicPart implements IElectronicPart{
         public function insert() {
 
         $host = '127.0.0.1';
-        $db   = 'electronics_l40';
+        $db   = 'test';
         $user = 'root';
         $pass = '';
         $charset = 'utf8';
@@ -136,7 +136,7 @@ class Keyboard extends ElectronicPart implements IElectronicPart{
     public function insert() {
 
         $host = '127.0.0.1';
-        $db   = 'electronics_l40';
+        $db   = 'test';
         $user = 'root';
         $pass = '';
         $charset = 'utf8';
@@ -197,7 +197,7 @@ class Computer extends ElectronicPart implements IElectronicPart{
         public function insert() {
 
         $host = '127.0.0.1';
-        $db   = 'electronics_l40';
+        $db   = 'test';
         $user = 'root';
         $pass = '';
         $charset = 'utf8';
